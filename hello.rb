@@ -21,3 +21,7 @@ until i >= 10 do
  puts "i is #{i}"
  i += 1
 end
+
+if 1 < 2
+  puts "Hot diggity, 1 is less than 2!"
+end
