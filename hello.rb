@@ -1,3 +1,6 @@
+puts "How old are you?"
+puts "Ohh! so you are " << gets.strip << " years old"
+
 puts 'hello world!'
 
 name = "Odin"
