@@ -33,3 +33,9 @@ end
 arr.each_with_index do |val, idx|
   puts "#{idx}- #{val}"
 end
+
+words = ["bacon", "orange", "apple"]
+words.my_all? { |word| puts word.size == 5 }
+words.my_all? { |word| puts word.size >= 5 }
+words.my_all? { |word| puts word.size < 5 }
+words.my_all? { |word| puts word.size > 5 }
